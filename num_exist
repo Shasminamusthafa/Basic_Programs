@@ -1,0 +1,10 @@
+const arr= [123,456,789,987,654,321];
+const num= 321;
+let exist = false;
+for (const element of arr) {
+  if (element === num) {
+     exist = true;
+    break;
+  }
+}
+console.log("The num ",num,exist);
