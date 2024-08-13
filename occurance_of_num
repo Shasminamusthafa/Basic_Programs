@@ -1,0 +1,9 @@
+const arr = [19,9,78,67,19,56,19,19];
+const occ= 19;
+let count = 0;
+for (const element of arr) {
+  if (element === occ) {
+    count++;
+  }
+}
+console.log("The occurance of num 19:",count)
