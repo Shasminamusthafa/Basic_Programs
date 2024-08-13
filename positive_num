@@ -1,0 +1,8 @@
+const num=[28,-67,90,-75]
+const pos=[]
+for (let i=1;i<num.length;i++){
+    if(num[i]>0){
+        pos.push(num[i])
+    }
+}
+console.log("Positive numbers:",pos)
