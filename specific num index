@@ -1,0 +1,10 @@
+const arr = [100,90,98,76,65];
+const element = 98;
+let index = 0;
+for (let i = 0; i < array.length; i++) {
+  if (arr[i] === element) {
+    index = i;
+    break; 
+  }
+}
+console.log("The index value of ",element," is ",index);
