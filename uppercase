@@ -1,0 +1,9 @@
+const str = "Hello World";
+let Upper;
+for (const char of str) {
+  if (char === char.toUpperCase() && char !== char.toLowerCase()) {
+    Upper = true;
+    break; 
+  }
+}
+console.log("Uppercase exists:",Upper); 
