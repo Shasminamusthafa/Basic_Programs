@@ -1,0 +1,9 @@
+const arr = [45,80,-67,89];
+let pos=true;
+for (const num of arr) {
+  if (num <= 0) {
+    pos= false;
+    break;
+  }
+}
+console.log(pos);
