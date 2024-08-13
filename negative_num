@@ -1,0 +1,9 @@
+const array = [456, -456, -10, 5987, -3];
+let negative= 0;
+for (const num of arr) {
+  if (num < 0) {
+    negative = num;
+    break; 
+  }
+}
+console.log("The 1st negative number:",negative); 
