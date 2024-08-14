@@ -1,0 +1,4 @@
+const text = "My name is shasmina";
+const words = text.split(/\s+/);
+const count = words.length;
+console.log("No of words-",count);
