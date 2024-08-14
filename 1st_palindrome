@@ -1,0 +1,10 @@
+const str = ["hello", "world", "malayalam", "level"];
+let palindrome = null;
+for (let i = 0; i < str.length; i++) {
+  const string = str[i].toLowerCase(); 
+    if (string === string.split('').reverse().join('')) {
+    palindrome= str[i];
+    break; 
+  }
+}
+console.log("The first palindrome in the array is:",palindrome);
