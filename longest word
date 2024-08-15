@@ -1,0 +1,9 @@
+const str="This is the longest word in the given string";
+let word=str.split(" ");
+let longest="";
+for(i=0;i<word.length;i++){
+    if(word[i].length>longest.length){
+       longest=word[i];
+    }
+}
+console.log("The longest word is ",longest);

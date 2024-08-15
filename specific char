@@ -1,0 +1,9 @@
+const str="My name is shasmina";
+let word="a";
+let occurance=0;
+for(i=0;i<str.length;i++){
+    if(str[i]===word){
+        occurance++;
+    }
+}
+console.log("The specific word occured:",occurance);

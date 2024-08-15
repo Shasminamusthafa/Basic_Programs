@@ -1,0 +1,8 @@
+const arr=[1,0,28,34,0,9];
+let product=1;
+for(i=0;i<arr.length;i++){
+    if(arr[i]!=0){
+    product=product*arr[i];
+}
+}
+console.log("The product of nonzero elements are ",product);
