@@ -1,0 +1,16 @@
+var str = "programming";
+var seen = {};
+var firstRepeatedChar = null;
+for (var i = 0; i < str.length; i++) {
+    var char = str[i];
+     if (seen[char]) {
+        firstRepeatedChar = char;
+        break; 
+    }
+    seen[char] = true;
+}
+if (firstRepeatedChar) {
+    console.log("The first repeated character is:", firstRepeatedChar);
+} else {
+    console.log("No characters are repeated.");
+}
